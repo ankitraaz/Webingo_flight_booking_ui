@@ -56,7 +56,8 @@ A premium, high-performance Flutter-based flight booking application featuring a
 
 | Home Screen | Search Results | Filter Options | Flight Details |
 | :---: | :---: | :---: | :---: |
-| ![Home](screenshots/home.png) | ![Results](screenshots/results.png) | ![Filters](screenshots/filters.png) | ![Details](screenshots/details.png) |
+| ![Home](<img width="1206" height="2622" alt="image" src="https://github.com/user-attachments/assets/55f708c9-24d7-4d84-9a73-b3e9ec0805b1" />
+) | ![Results](screenshots/results.png) | ![Filters](screenshots/filters.png) | ![Details](screenshots/details.png) |
 
 ## ✨ Features
 
