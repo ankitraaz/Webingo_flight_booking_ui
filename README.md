@@ -48,4 +48,44 @@ This repository contains a Flight Booking mobile application built using **Flutt
 *   **Total:** ~6 Hours
 
 Thank you for reviewing!
-# Webingo_flight_booking_ui
+# Webingo Flight Booking UI
+
+A premium, high-performance Flutter-based flight booking application featuring a modern glassmorphic design, advanced filtering, and real-time API integration.
+
+## 📱 Screenshots
+
+| Home Screen | Search Results | Filter Options | Flight Details |
+| :---: | :---: | :---: | :---: |
+| ![Home](screenshots/home.png) | ![Results](screenshots/results.png) | ![Filters](screenshots/filters.png) | ![Details](screenshots/details.png) |
+
+## ✨ Features
+
+- **Premium UI/UX**: Modern glassmorphism effects and smooth transitions using Flutter.
+- **Flight Search**: Search for flights with departure, arrival, date, and passenger count.
+- **Advanced Filtering**: Filter by airline, price range, number of stops, and aircraft type.
+- **Real-time API**: Seamless integration with the Flight Booking API for live data.
+- **Saved Trips**: Locally stored pass information for quick access.
+- **Interactive Details**: Comprehensive flight information including terminals, gates, and passenger seat assignments.
+- **Barcode Support**: SVG-based barcode rendering for boarding passes.
+
+## 🛠️ Tech Stack
+
+- **Framework**: Flutter
+- **State Management**: Riverpod
+- **Networking**: Dio
+- **UI Components**: Custom Paint (Dotted Lines), BackdropFilter (Glassmorphism), Shimmer Effects.
+
+## 🚀 Getting Started
+
+1.  **Clone the repository**:
+    ```bash
+    git clone https://github.com/ankitraaz/Webingo_flight_booking_ui.git
+    ```
+2.  **Install dependencies**:
+    ```bash
+    flutter pub get
+    ```
+3.  **Run the app**:
+    ```bash
+    flutter run
+    ```
