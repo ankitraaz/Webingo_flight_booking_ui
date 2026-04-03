@@ -39,8 +39,7 @@ This repository contains a Flight Booking mobile application built using **Flutt
 1.  **UI Breakdown:** I analyzed the Dribbble shot and separated the UI into 3 core screens: *Home*, *Search Results*, and *Flight Details*. The most complex visual widget was the "Ticket" view which I solved beautifully and efficiently using a `CustomClipper` overlay over a shadowed `PhysicalShape`/`Container`.
 2.  **State Management:** I picked Riverpod (`flutter_riverpod`) because of its robustness in handling asynchronous loading states (`AsyncValue`) compared to older Provider patterns. FutureProviders elegantly handle API calls, eliminating manual `setState` or loading flags.
 3.  **API Mapping:** I generated typed Dart models (`Flight`, `Airport`, `Passenger`, etc.) to parse JSON maps safely, avoiding runtime `TypeError` issues.
-4.  **Mocking vs Live Data:** The "Saved Trips" layout shown horizontally below the Home screen search wasn't part of any API endpoint provided, so its structure was mocked identically to the design to keep the UI strictly compliant with the assignment specs.
-
+4.  **Mocking vs Live Data:** TStructure for 'Saved Trips' has been mocked to maintain the premium UI layout. Since the provided API did not include a user-specific booking history endpoint, this section is ready for real data integration as soon as the relevant endpoint is available.
 ## Time Taken
 *   **UI Layout & Parsing:** ~3 Hours
 *   **Riverpod Architecture & API Mapping:** ~2 Hours
